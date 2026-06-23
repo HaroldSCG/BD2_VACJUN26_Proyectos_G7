@@ -7,6 +7,22 @@
 
 ---
 
+## Introducción
+
+El presente manual técnico detalla la arquitectura, diseño e implementación de un Sistema de Recomendación de Restaurantes respaldado por una base de datos orientada a grafos (**Neo4j**). A diferencia de los enfoques relacionales tradicionales, este sistema aprovecha las estructuras topológicas para modelar y analizar de forma natural las conexiones entre usuarios, preferencias culinarias, historiales de interacción, vínculos sociales (amistades) y la trayectoria del personal de cocina (chefs). Utilizando el motor integrado y el lenguaje declarativo **Cypher**, junto con flujos de carga masiva preprocesados en **Python**, el proyecto busca demostrar cómo las aristas y nodos permiten ejecutar analíticas avanzadas, explorar grados de separación y emitir recomendaciones predictivas complejas de manera altamente eficiente.
+
+## Objetivos
+
+### Objetivo General
+* Diseñar e implementar un modelo robusto de base de datos de grafos en Neo4j, optimizado para gestionar volúmenes de datos gastronómicos y sociales, permitiendo el despliegue de un motor de recomendaciones inteligentes basado en redes y patrones de interacción.
+
+### Objetivos Específicos
+* **Estructurar** un modelo conceptual e indexado que mapee lógicamente entidades clave (Usuarios, Restaurantes, Chefs, Platillos y Tipos de Cocina) respetando restricciones y multiplicidades reales de negocio.
+* **Automatizar** una ingesta masiva de datos estructurados originados de manera sintética mediante `LOAD CSV` y uso de cláusulas `MERGE` orientadas al alto rendimiento.
+* **Programar** consultas analíticas estructuradas en Cypher que exploren la centralidad en las redes, rutas más cortas (Shortest Path) y mecanismos multinivel para sugerencias gastronómicas predictivas.
+
+---
+
 ## 1. Diseño del Modelo de Grafos
 
 Este proyecto implementa una base de datos basada en grafos utilizando **Neo4j** para gestionar y analizar datos relacionados con un entorno gastronómico, permitiendo realizar recomendaciones inteligentes basadas en preferencias y relaciones.
