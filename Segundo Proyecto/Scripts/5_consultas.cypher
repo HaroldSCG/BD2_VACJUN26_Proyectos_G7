@@ -1,5 +1,5 @@
 /////////////////////////////////////////////////////////
-//tipos de cocina por restaurante
+// Consulta 1: tipos de cocina por restaurante
 
 MATCH (r:Restaurante)-[:PERTENECE_A]->(t:TipoCocina)
 
@@ -10,7 +10,7 @@ COUNT(t) AS CantidadTiposCocina
 ORDER BY CantidadTiposCocina DESC;
 
 /////////////////////////////////////////////////////////
-//Tasa de reservas por restaurante
+// Consulta 2: Tasa de reservas por restaurante
 
 MATCH (r:Restaurante)<-[v:VISITO]-(:Usuario)
 
@@ -39,7 +39,7 @@ END
 ORDER BY PorcentajeReservas DESC;
 
 //////////////////////////////////////////////////////////
-// Gasto promedio por visita
+// Consulta 3: Gasto promedio por visita
 
 MATCH (:Usuario)-[v:VISITO]->(r:Restaurante)
 
@@ -53,7 +53,7 @@ AVG(v.consumo),
 ORDER BY GastoPromedio DESC;
 
 //////////////////////////////////////////////////////////
-// Frecuencia de visitas por mes
+// Consulta 4: Frecuencia de visitas por mes
 
 MATCH (:Usuario)-[v:VISITO]->(:Restaurante)
 
@@ -65,7 +65,7 @@ COUNT(*) AS TotalVisitas
 ORDER BY Anio, Mes;
 
 //////////////////////////////////////////////////////////
-//Restaurante sin visitas recientes - 30 dias
+// Consulta 5: Restaurante sin visitas recientes - 30 dias
 
 MATCH (r:Restaurante)
 
@@ -87,7 +87,7 @@ UltimaVisita
 ORDER BY UltimaVisita;
 
 //////////////////////////////////////////////////////////
-// Movilidad de chefs
+// Consulta 6: Movilidad de chefs
 
 MATCH (c:Chef)-[:TRABAJA_EN]->(r:Restaurante)
 
@@ -99,7 +99,7 @@ COUNT(DISTINCT r) AS RestaurantesTrabajados
 ORDER BY RestaurantesTrabajados DESC;
 
 //////////////////////////////////////////////////////////
-// Variación de precio de platillos
+// Consulta 7: Variación de precio de platillos
 
 MATCH (r:Restaurante)-[o:OFRECE]->(p:Platillo)
 
@@ -117,7 +117,7 @@ MAX(o.precio) - MIN(o.precio),
 ORDER BY Diferencia DESC;
 
 //////////////////////////////////////////////////////////
-// Visitas por tipo de cocina
+// Consulta 8: Visitas por tipo de cocina
 
 
 MATCH (:Usuario)-[:VISITO]->(r:Restaurante)
@@ -129,8 +129,17 @@ COUNT(*) AS TotalVisitas
 
 ORDER BY TotalVisitas DESC;
 
+//////////////////////////////////////////////////////////
+// Consulta 9: Restaurantes populares entre amigos (Graph Social VISUALIZABLE)
+
+MATCH (u:Usuario {idUsuario: 1})-[:ES_AMIGO_DE]-(amigo:Usuario)
+MATCH (amigo)-[v:VISITO]->(r:Restaurante)
+WHERE NOT EXISTS { MATCH (u)-[:VISITO]->(r) }
+RETURN u, amigo, v, r
+LIMIT 20;
+
 //////////////////////////////////////////////////////////////////////////
-// Consulta 9a
+// Consulta 10A
 // Recomendación basada en chefs compartidos con restaurantes visitados
 // =====================================================
 
@@ -159,7 +168,7 @@ LIMIT 10;
 
 
 ///////////////////////////////////////////////////
-// Consulta 9B
+// Consulta 10B
 // Recomendación basada en restaurantes bien valorados por el usuario
 // =====================================================
 
@@ -188,7 +197,7 @@ ORDER BY ChefsCompartidos DESC,
 LIMIT 10;
 
 ///////////////////////////////////////////////////////
-// Consulta 9C
+// Consulta 10C
 // Recomendación avanzada - combinacion historial de visitas, calificaciones positivas y chefs compartidos
 // =====================================================
 
@@ -220,28 +229,48 @@ PromedioCalificacionOrigen DESC
 LIMIT 10;
 
 //////////////////////////////////////////////////////////
+// Análisis de Redes 1: Grados de Separación (Shortest Path)
+// =====================================================
 
-//last
+MATCH p = shortestPath((u1:Usuario {idUsuario: 1})-[:ES_AMIGO_DE*..5]-(u2:Usuario {idUsuario: 10}))
+RETURN p;
 
+//////////////////////////////////////////////////////////
+// Análisis de Redes 2: Restaurantes Altamente Conectados (VISUALIZABLE)
+// =====================================================
+
+MATCH (r:Restaurante)<-[rel]-(nodoExterno)
+WITH r, COUNT(rel) as Conexiones
+ORDER BY Conexiones DESC LIMIT 5
+MATCH (r)<-[rel]-(nodoExterno)
+RETURN r, rel, nodoExterno LIMIT 150;
+
+//////////////////////////////////////////////////////////
+// Validacion 1: Cantidad de Usuarios
 MATCH (u:Usuario)
 RETURN COUNT(u);
 //////////////////////////////////////
 //////////////////////////////////////
+// Validacion 2: Cantidad de Restaurantes
 MATCH (r:Restaurante)
 RETURN COUNT(r);
 //////////////////////////////////////
 //////////////////////////////////////
+// Validacion 3: Cantidad de Chefs
 MATCH (c:Chef)
 RETURN COUNT(c);
 //////////////////////////////////////
 //////////////////////////////////////
+// Validacion 4: Cantidad de Platillos
 MATCH (p:Platillo)
 RETURN COUNT(p);
 //////////////////////////////////////
 //////////////////////////////////////
+// Validacion 5: Cantidad de Tipos de Cocina
 MATCH (t:TipoCocina)
 RETURN COUNT(t);
 //////////////////////////////////////
 //////////////////////////////////////
+// Validacion 6: Cantidad y Tipo de Relaciones
 MATCH ()-[r]->()
 RETURN type(r), COUNT(r);  

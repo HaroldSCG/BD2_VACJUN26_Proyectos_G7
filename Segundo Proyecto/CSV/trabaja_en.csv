@@ -1,198 +1,214 @@
 idChef,idRestaurante,fechaInicio,puesto
-1,49,2016-12-26,Chef Principal
-2,43,2020-08-14,Chef de Linea
-3,151,2021-08-24,Sous Chef
-4,71,2023-09-21,Chef Principal
-4,153,2023-05-26,Chef Ejecutivo
-5,137,2024-11-10,Chef Principal
-6,115,2017-03-26,Chef de Linea
-6,164,2021-08-27,Sous Chef
-7,3,2023-05-13,Chef Principal
-7,96,2021-02-14,Sous Chef
-7,154,2026-02-13,Chef Ejecutivo
-8,11,2023-11-06,Sous Chef
-9,114,2017-07-10,Chef de Linea
-9,115,2018-06-03,Chef Ejecutivo
-10,33,2021-12-13,Chef de Linea
-10,153,2018-09-12,Sous Chef
-11,56,2025-11-21,Sous Chef
-11,168,2017-08-17,Sous Chef
-12,75,2018-07-16,Chef Ejecutivo
-12,76,2024-08-15,Chef Principal
-12,92,2025-09-12,Chef Ejecutivo
-13,12,2016-11-30,Chef de Linea
-13,104,2025-04-08,Chef Ejecutivo
-13,114,2018-08-22,Sous Chef
-14,2,2017-08-13,Chef Principal
-14,75,2017-03-03,Chef de Linea
-14,193,2020-03-11,Chef de Linea
-15,9,2026-02-21,Chef Ejecutivo
-15,92,2018-06-24,Sous Chef
-15,197,2021-05-13,Chef de Linea
-16,61,2021-01-31,Chef de Linea
-16,87,2018-02-10,Sous Chef
-17,58,2020-03-08,Chef Ejecutivo
-17,110,2022-01-27,Chef de Linea
-18,128,2019-12-04,Chef Ejecutivo
-18,194,2021-04-09,Chef Principal
-19,14,2016-06-22,Chef de Linea
-19,57,2025-11-09,Chef Principal
-19,163,2023-02-06,Chef de Linea
-20,52,2016-06-26,Chef Principal
-20,143,2021-01-15,Chef de Linea
-20,167,2018-03-21,Chef Ejecutivo
-21,79,2019-04-07,Sous Chef
-21,94,2018-03-09,Chef de Linea
-22,1,2016-10-27,Sous Chef
-22,156,2024-12-07,Chef de Linea
-23,70,2023-03-07,Sous Chef
-24,21,2021-11-04,Chef de Linea
-24,78,2024-12-28,Chef Principal
-24,84,2023-10-30,Chef Principal
-25,21,2025-06-18,Chef Principal
-25,129,2026-05-17,Chef de Linea
-25,181,2018-05-12,Chef de Linea
-26,120,2018-11-11,Chef Ejecutivo
-26,196,2021-01-30,Sous Chef
-27,10,2024-02-01,Chef Principal
-27,21,2017-05-10,Chef de Linea
-27,185,2019-07-19,Chef Principal
-28,79,2024-06-17,Chef Principal
-28,189,2022-04-30,Chef de Linea
-29,2,2026-04-05,Chef Principal
-29,144,2024-07-16,Chef Ejecutivo
-30,3,2022-10-10,Chef Principal
-30,58,2020-11-13,Chef de Linea
-31,30,2017-07-31,Sous Chef
-32,106,2023-07-09,Chef Ejecutivo
-32,192,2021-12-24,Chef Ejecutivo
-33,101,2016-10-05,Chef Principal
-33,130,2022-10-25,Chef Principal
-34,27,2021-10-04,Chef Principal
-34,109,2018-04-25,Chef de Linea
-35,95,2020-11-25,Chef de Linea
-35,139,2018-07-31,Chef Ejecutivo
-35,177,2021-05-08,Sous Chef
-36,118,2025-01-30,Chef Principal
-36,171,2023-10-25,Sous Chef
-37,187,2025-07-16,Chef de Linea
-37,194,2020-08-09,Chef Principal
-38,149,2024-01-24,Chef Ejecutivo
-39,105,2017-07-19,Chef de Linea
-39,132,2019-08-05,Sous Chef
-40,100,2021-09-08,Chef de Linea
-40,187,2019-09-28,Chef de Linea
-41,131,2025-07-11,Sous Chef
-42,136,2022-02-14,Chef Principal
-42,162,2022-06-01,Chef Ejecutivo
-42,169,2019-08-11,Sous Chef
-43,86,2026-03-09,Chef Principal
-43,184,2019-08-09,Chef Ejecutivo
-43,199,2020-12-26,Sous Chef
-44,1,2017-10-06,Chef Ejecutivo
-44,2,2016-12-13,Chef de Linea
-45,96,2021-08-29,Chef Principal
-46,28,2016-07-14,Sous Chef
-46,148,2020-08-02,Chef Ejecutivo
-47,71,2017-05-12,Chef Ejecutivo
-47,120,2019-10-11,Chef Principal
-48,30,2022-04-02,Chef de Linea
-49,20,2019-07-21,Sous Chef
-49,51,2025-06-11,Chef Principal
-49,145,2021-10-18,Sous Chef
-50,120,2025-08-09,Chef de Linea
-51,152,2022-03-20,Chef Ejecutivo
-52,57,2022-12-10,Sous Chef
-52,141,2023-09-16,Chef de Linea
-52,175,2019-10-14,Chef Principal
-53,168,2020-02-25,Chef Ejecutivo
-54,131,2023-05-16,Chef de Linea
-54,143,2017-04-30,Chef Ejecutivo
-54,198,2026-05-10,Chef Principal
-55,189,2022-01-07,Chef de Linea
-56,22,2017-01-06,Sous Chef
-56,65,2017-03-21,Chef Principal
-56,87,2021-10-24,Chef Ejecutivo
-57,78,2018-03-06,Chef Ejecutivo
-58,26,2021-11-21,Chef de Linea
-58,38,2026-01-08,Chef Ejecutivo
-58,136,2022-01-28,Chef de Linea
-59,121,2026-01-11,Sous Chef
-59,194,2025-12-13,Chef Ejecutivo
-60,100,2016-07-03,Sous Chef
-61,116,2017-12-03,Chef Principal
-61,157,2018-09-05,Chef Principal
-62,106,2022-03-25,Chef Ejecutivo
-62,117,2019-12-02,Chef Principal
-63,170,2021-08-09,Chef Principal
-63,200,2018-02-15,Chef Ejecutivo
-64,89,2017-12-08,Sous Chef
-64,162,2018-01-18,Sous Chef
-64,183,2019-08-09,Chef Principal
-65,97,2016-12-21,Chef Ejecutivo
-66,36,2025-08-23,Chef Ejecutivo
-66,37,2016-12-11,Chef de Linea
-66,195,2020-10-29,Sous Chef
-67,183,2021-05-15,Chef Principal
-68,122,2018-08-16,Chef de Linea
-68,148,2021-11-06,Chef Principal
-69,154,2019-12-12,Sous Chef
-70,103,2017-04-13,Chef Principal
-70,147,2026-03-22,Chef Principal
-71,51,2023-02-18,Chef Ejecutivo
-71,92,2020-10-22,Sous Chef
-71,102,2023-12-29,Sous Chef
-72,6,2021-01-01,Chef Principal
-72,149,2020-09-01,Chef Ejecutivo
-73,156,2017-03-26,Chef de Linea
-74,22,2017-05-01,Chef Ejecutivo
-74,149,2022-05-25,Chef Principal
-75,34,2023-10-24,Chef Ejecutivo
-76,145,2024-08-07,Chef Principal
-77,18,2019-03-02,Chef Ejecutivo
-78,56,2020-05-09,Chef Principal
-79,40,2025-09-16,Chef de Linea
-80,47,2020-07-01,Chef Principal
-81,1,2018-02-09,Chef Principal
-81,2,2018-04-06,Sous Chef
-81,159,2019-10-21,Sous Chef
-82,46,2025-04-22,Chef Ejecutivo
-82,56,2025-09-28,Sous Chef
-82,77,2021-08-14,Sous Chef
-83,22,2026-04-14,Chef Ejecutivo
-83,90,2024-08-31,Sous Chef
-83,114,2023-06-17,Chef Ejecutivo
-84,28,2017-12-25,Chef Principal
-85,132,2019-05-08,Chef Principal
-85,155,2025-02-18,Chef Ejecutivo
-86,200,2020-07-11,Chef Principal
-87,16,2019-12-11,Sous Chef
-87,183,2017-07-12,Chef Ejecutivo
-88,98,2024-01-13,Sous Chef
-88,137,2017-12-03,Chef de Linea
-88,166,2017-02-07,Chef Principal
-89,96,2021-02-20,Chef Ejecutivo
-89,119,2017-09-29,Sous Chef
-89,137,2021-07-18,Chef de Linea
-90,47,2024-02-17,Chef Principal
-90,163,2019-03-27,Chef de Linea
-91,147,2021-05-12,Chef de Linea
-91,185,2022-04-25,Chef Ejecutivo
-92,12,2017-08-11,Sous Chef
-92,111,2022-02-28,Chef Ejecutivo
-92,156,2018-09-08,Chef Principal
-93,13,2018-06-24,Chef de Linea
-94,14,2018-05-09,Chef Principal
-94,135,2024-07-21,Sous Chef
-95,100,2017-02-03,Sous Chef
-95,116,2022-05-25,Chef Principal
-96,33,2024-12-26,Chef Principal
-96,186,2018-09-14,Chef Ejecutivo
-97,169,2024-12-18,Sous Chef
-98,59,2023-02-16,Chef Principal
-98,62,2018-05-03,Chef de Linea
-98,169,2020-04-07,Chef Principal
-99,58,2022-11-10,Sous Chef
-100,25,2026-03-26,Sous Chef
-100,55,2020-04-30,Sous Chef
-100,58,2020-11-18,Chef Ejecutivo
+1,13,2019-05-20,Chef Ejecutivo
+2,30,2022-05-26,Chef Principal
+2,65,2016-06-23,Chef de Linea
+3,98,2016-06-25,Chef de Linea
+4,91,2024-09-21,Sous Chef
+5,28,2019-04-28,Chef Ejecutivo
+5,131,2022-02-07,Sous Chef
+5,164,2017-08-16,Chef Ejecutivo
+6,3,2017-04-06,Chef Principal
+7,20,2025-09-15,Chef Ejecutivo
+7,81,2016-12-03,Chef de Linea
+7,184,2021-06-02,Chef Principal
+8,1,2020-08-23,Chef de Linea
+8,118,2023-11-23,Chef de Linea
+8,163,2017-12-25,Chef Ejecutivo
+9,17,2018-05-22,Chef de Linea
+9,108,2017-09-17,Chef de Linea
+9,122,2021-08-21,Chef Principal
+10,106,2022-08-30,Sous Chef
+10,195,2020-10-22,Chef de Linea
+11,117,2024-04-02,Chef Ejecutivo
+12,76,2019-03-03,Chef Ejecutivo
+12,123,2019-01-16,Chef Principal
+12,161,2018-09-10,Chef Ejecutivo
+13,41,2021-02-06,Sous Chef
+13,127,2018-04-01,Chef de Linea
+13,182,2023-12-27,Chef de Linea
+14,44,2024-09-22,Chef Principal
+14,99,2016-12-21,Sous Chef
+14,189,2026-02-04,Chef Principal
+15,133,2020-09-28,Chef de Linea
+16,17,2020-07-14,Chef Principal
+16,57,2019-08-28,Chef de Linea
+16,152,2020-05-11,Chef Principal
+17,72,2022-11-23,Chef Principal
+17,100,2023-01-18,Chef Ejecutivo
+17,132,2025-07-17,Chef Principal
+18,87,2017-09-21,Chef Principal
+18,168,2020-10-11,Sous Chef
+19,31,2025-10-31,Sous Chef
+19,156,2025-12-15,Sous Chef
+19,184,2023-09-21,Chef Ejecutivo
+20,61,2025-06-24,Chef de Linea
+20,92,2025-01-29,Chef Ejecutivo
+20,115,2019-04-15,Chef de Linea
+21,101,2024-05-21,Sous Chef
+21,136,2016-10-05,Chef de Linea
+22,33,2019-08-24,Chef de Linea
+22,90,2023-02-24,Chef Principal
+23,100,2025-03-11,Sous Chef
+23,107,2025-03-25,Chef Ejecutivo
+23,171,2023-06-12,Chef Principal
+24,83,2023-01-23,Chef Ejecutivo
+25,18,2020-09-29,Sous Chef
+25,166,2022-04-16,Sous Chef
+26,11,2022-10-26,Chef de Linea
+27,11,2018-07-13,Chef Ejecutivo
+28,106,2023-02-11,Chef Principal
+28,131,2017-02-05,Chef Ejecutivo
+29,43,2021-12-29,Sous Chef
+29,90,2017-07-31,Sous Chef
+30,71,2026-02-16,Chef Ejecutivo
+30,82,2016-08-10,Sous Chef
+30,91,2018-10-30,Chef de Linea
+31,1,2019-11-07,Chef Principal
+31,44,2023-03-23,Chef Principal
+31,130,2024-08-06,Chef Ejecutivo
+32,172,2023-12-19,Chef Ejecutivo
+33,73,2016-08-11,Chef Principal
+33,147,2018-11-23,Chef Ejecutivo
+33,151,2018-04-30,Sous Chef
+34,20,2021-08-15,Chef Principal
+34,85,2017-10-17,Chef de Linea
+34,130,2023-08-21,Chef Ejecutivo
+35,136,2017-10-27,Chef Ejecutivo
+36,165,2021-04-18,Sous Chef
+37,172,2018-12-18,Chef Principal
+38,105,2023-12-10,Chef Ejecutivo
+38,110,2017-01-15,Chef Ejecutivo
+39,103,2025-06-12,Chef Ejecutivo
+39,117,2022-05-19,Chef Principal
+39,126,2026-06-16,Sous Chef
+40,46,2019-09-22,Chef Ejecutivo
+40,81,2018-12-13,Chef Principal
+40,146,2023-12-23,Chef de Linea
+41,25,2016-12-12,Chef de Linea
+41,61,2020-12-29,Chef Ejecutivo
+41,127,2019-10-23,Chef de Linea
+42,87,2025-01-06,Chef Ejecutivo
+43,41,2024-01-08,Sous Chef
+43,72,2022-06-04,Chef de Linea
+43,104,2018-09-11,Chef Principal
+44,147,2020-03-29,Chef Principal
+44,170,2017-08-01,Chef Ejecutivo
+44,196,2026-03-16,Sous Chef
+45,49,2025-12-28,Chef Principal
+46,72,2019-02-01,Chef Ejecutivo
+46,85,2026-04-16,Chef de Linea
+47,142,2018-06-18,Chef Ejecutivo
+47,162,2023-09-25,Chef Ejecutivo
+47,185,2017-05-30,Sous Chef
+48,181,2018-09-06,Chef Principal
+49,16,2024-11-21,Chef Principal
+49,93,2025-12-23,Sous Chef
+50,82,2023-08-07,Chef de Linea
+50,91,2022-12-27,Chef Ejecutivo
+50,144,2025-11-05,Chef Principal
+51,29,2017-10-15,Sous Chef
+51,56,2025-12-24,Sous Chef
+51,68,2022-04-12,Chef Ejecutivo
+52,77,2025-06-05,Chef Ejecutivo
+52,153,2019-04-13,Chef Ejecutivo
+53,71,2017-03-08,Chef de Linea
+54,57,2018-03-22,Chef de Linea
+54,171,2024-04-09,Chef Ejecutivo
+55,78,2024-05-18,Sous Chef
+55,83,2024-05-04,Chef Ejecutivo
+55,175,2021-01-25,Chef Principal
+56,130,2020-07-26,Chef Ejecutivo
+57,26,2020-03-18,Chef Ejecutivo
+57,114,2018-04-03,Chef Ejecutivo
+57,183,2023-07-27,Chef Ejecutivo
+58,70,2018-08-08,Sous Chef
+58,188,2018-02-04,Chef Ejecutivo
+59,161,2023-05-29,Chef Ejecutivo
+60,105,2024-11-08,Sous Chef
+61,24,2021-09-23,Chef Principal
+61,163,2023-10-21,Chef de Linea
+61,181,2025-09-07,Chef Ejecutivo
+62,178,2020-07-25,Chef Principal
+63,13,2016-09-08,Chef Ejecutivo
+63,157,2024-08-01,Chef Principal
+64,111,2026-04-22,Sous Chef
+64,117,2018-01-08,Sous Chef
+65,160,2025-02-14,Chef de Linea
+66,57,2018-04-19,Chef Principal
+66,86,2017-10-19,Chef Ejecutivo
+67,3,2021-06-19,Chef de Linea
+67,143,2022-04-14,Sous Chef
+67,190,2017-03-28,Chef de Linea
+68,130,2023-03-26,Chef Ejecutivo
+69,40,2025-08-09,Chef Ejecutivo
+69,109,2020-06-25,Chef Ejecutivo
+69,145,2019-02-27,Chef Principal
+70,125,2021-06-25,Sous Chef
+70,149,2024-11-04,Sous Chef
+71,126,2017-06-30,Sous Chef
+72,10,2018-06-17,Chef de Linea
+72,48,2017-05-19,Sous Chef
+72,123,2022-12-24,Chef de Linea
+73,43,2022-02-27,Chef Principal
+73,176,2020-04-01,Chef Principal
+73,197,2020-07-19,Chef Ejecutivo
+74,85,2025-05-27,Chef Ejecutivo
+75,20,2020-06-23,Chef Principal
+75,102,2018-02-19,Chef Ejecutivo
+75,127,2026-03-16,Sous Chef
+76,23,2019-01-25,Chef Principal
+76,44,2020-11-19,Chef Ejecutivo
+77,55,2019-02-14,Sous Chef
+77,167,2024-10-03,Chef Ejecutivo
+78,63,2023-10-23,Chef Principal
+78,87,2018-12-08,Chef de Linea
+79,8,2019-07-08,Chef de Linea
+79,126,2023-10-01,Chef Ejecutivo
+79,189,2017-09-01,Chef Principal
+80,46,2021-04-30,Sous Chef
+80,114,2021-02-28,Chef Principal
+80,180,2020-02-02,Sous Chef
+81,30,2023-06-02,Chef de Linea
+81,105,2021-10-02,Sous Chef
+81,184,2023-05-23,Chef de Linea
+82,20,2021-07-23,Chef Ejecutivo
+82,36,2024-05-26,Chef de Linea
+82,153,2023-08-20,Sous Chef
+83,26,2023-02-08,Sous Chef
+84,16,2023-09-29,Chef Ejecutivo
+85,42,2025-02-09,Chef Ejecutivo
+86,41,2020-11-22,Chef Ejecutivo
+87,60,2020-10-06,Chef Principal
+87,67,2019-10-17,Chef de Linea
+87,167,2016-11-22,Sous Chef
+88,15,2024-08-09,Chef Principal
+88,64,2018-10-15,Chef Ejecutivo
+88,187,2019-03-06,Sous Chef
+89,91,2024-05-27,Chef Principal
+89,107,2021-08-14,Chef Ejecutivo
+89,150,2022-11-01,Chef Ejecutivo
+90,91,2021-02-01,Chef de Linea
+90,123,2021-02-26,Sous Chef
+91,46,2025-09-15,Chef de Linea
+91,173,2023-05-08,Sous Chef
+92,11,2019-12-11,Chef de Linea
+92,15,2020-09-12,Chef Ejecutivo
+92,56,2018-03-16,Chef Principal
+93,184,2022-12-17,Chef de Linea
+93,187,2017-12-28,Sous Chef
+94,44,2019-12-29,Chef Principal
+94,86,2023-09-28,Chef de Linea
+94,148,2019-05-20,Sous Chef
+95,3,2019-03-16,Chef de Linea
+96,17,2020-10-13,Chef de Linea
+96,99,2020-06-12,Sous Chef
+96,153,2020-03-26,Chef Principal
+97,80,2020-08-13,Chef Principal
+97,99,2019-10-11,Chef Ejecutivo
+97,198,2016-06-26,Chef Ejecutivo
+98,14,2025-07-03,Sous Chef
+98,83,2019-08-08,Chef Principal
+99,52,2019-04-08,Chef Ejecutivo
+99,149,2023-03-25,Chef de Linea
+100,77,2019-02-15,Chef de Linea
+100,127,2023-11-30,Chef Principal
